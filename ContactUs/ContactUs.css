@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #f3e6d4;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background: #c52833;
+}
+
+.name a {
+    font-family: 'Teko';
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+header .header-left {
+    display: flex;
+    align-items: center;
+}
+
+header .header-left nav {
+    margin-left: 15px;
+}
+
+header .header-left nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+    font-family: 'Poppins';
+}
+
+header .header-right .hamburger {
+    margin-left: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+header .header-right .hamburger div {
+    width: 30px;
+    height: 2px;
+    margin: 6px 0;
+    background: #fff;
+}
+
+/* ============================= CONTACT US ======================== */
+/* ============================= CONTACT US ======================== */
+
+.title {
+    font-size: 64px;
+    font-family: 'Poppins';
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.basabasi {
+    font-size: 24px;
+    font-family: 'Poppins';
+    margin-left: 184px;
+    margin-top: -20px;
+}
+
+/* ========================== FORM ============================= */
+/* ========================== FORM ============================= */
+
+body {
+    background: #F3E6D4;
+    font-family: 'Poppins';
+}
+
+.input-control {
+    font-size: 20px;
+}
+
+#form {
+    margin-left: 185px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#form input {
+    border-radius: 10px;
+    width: 600px;
+    height: 20px;
+}
+
+.button {
+    position: relative;
+    top: -20px;
+    width: 254px;
+    margin-left: 185px;
+    font-family: 'Teko';
+    font-size: 40px;
+    color: gold;
+    background-color: #c52833;
+    border-radius: 15px;
+}
+
+.input-control .checkbox {
+    margin-left: -290px;
+    margin-top: 20px;
+}
+
+.input-control .newsletter {
+    position: relative;
+    font-size: 15px;
+    margin-left: 25px;
+    top: -27px;
+}
+
+.input-control input {
+    border: 3px solid #f0f0f0;
+	display: block;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.input-control input:hover {
+    border-color: blue;
+}
+
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.input-control .error1 {
+    color: #ff3860;
+    font-size: 13px;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+
+.image {
+    margin-left: 900px;
+    margin-top: -900px;
+    margin-bottom: 150px;
+}
+
+.image2 {
+    margin-left: 15px;
+    width: 200px;
+    margin-top: -100px;
+}
+
+footer {
+    background-color: #c52833;
+    color: white;
+    font-family: 'Poppins';
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.name1 {
+    font-size: 27px;
+    font-family: 'Teko';
+}
+
+@media only screen and (max-width: 768px) {
+    header { 
+        padding: 0 20px;
+    }
+
+    header .header-right .hamburger {
+        display: block;
+    }
+
+    header .header-left nav {
+        margin: 0;
+        position: absolute;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        background-color: #0b2239;
+        padding: 30px;
+        text-align: center;
+        z-index: -1;
+    }
+
+    header .header-left nav.active {
+        top: 70px;
+    }
+
+    header .header-left nav ul {
+        display: block;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .image2 {
+        display: none;
+    }
+
+    contactUs {
+        position: relative;
+        left: -100px;
+    }
+
+    form {
+        position: relative;
+        left: -100px;
+    }
+
+    .button {
+        position: relative;
+        left: -100px;
+    }
+
+    footer {
+        position: relative;
+        top: 100px;
+    }
+}

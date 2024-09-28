@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./ContactUs.css">
+    <script defer src="./ContactUs.js"></script>
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+    <!-- ======================================= NAVBAR ========================================== -->
+    <!-- ======================================= NAVBAR ========================================== -->
+
+    <header>
+        <div class="header-left">
+            <div class="name"><a href="../index.html">ERameN</a></div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html" class="active">Home</a></li>
+                    <li><a href="../Products/Products.html">Products</a></li>
+                    <li><a href="../Promotion/Promotion.html">Promotion</a></li>
+                    <li><a href="../AboutUs/AboutUs.html">About Us</a></li>
+                    <li><a href="./ContactUs.html" style="color: gold;">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ======================================= CONTACT US ========================================= -->
+    <!-- ======================================= CONTACT US ========================================= -->
+
+    <contactUs>
+        <p class="title">Contact Us</p>
+        <p class="basabasi">Send us a message and let's get the ramen conversation rolling.</p>
+    </contactUs>
+
+    <!-- ==================================== FORM ===================================== -->
+    <!-- ==================================== FORM ===================================== -->
+
+    <form id="form" action="">
+
+        <!-- ========================================== FULL NAME ==================================== -->
+        <!-- ========================================== FULL NAME ==================================== -->
+
+        <div class="input-control">
+            <label for="username">Full Name</label>
+            <input id="username" name="username" type="text">
+            <div class="error"></div>
+        </div>
+
+        <!-- ========================================== EMAIL ADDRESS ========================================== -->
+        <!-- ========================================== EMAIL ADDRESS ========================================== -->
+
+        <div class="input-control">
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="text">
+            <div class="error"></div>
+        </div>
+
+        <!-- =========================================== PHONE NUMBER ======================================= -->
+        <!-- =========================================== PHONE NUMBER ======================================= -->
+
+        <div class="input-control">
+            <label for="phone">Phone Number</label>
+            <input id="phone" name="phone" type="number">
+            <div class="error"></div>
+        </div>
+
+        <!-- =============================================== PREFERENCES ========================================== -->
+        <!-- =============================================== PREFERENCES ========================================== -->
+
+        <div class="input-control">
+            <label for="preferences">Preferences</label>
+            <input id="preferences" name="preferences" type="text">
+            <div class="error"></div>
+        </div>
+
+        <!-- ============================================== NEWSLETTERS ================================================= -->
+        <!-- ============================================== NEWSLETTERS ================================================= -->
+
+        <div class="input-control">
+            <input type="checkbox" name="agree" id="agree" class="checkbox">
+            <label for="agree" class="newsletter">I Agree To Recieve Newslatter</label>
+            <div class="error1" ></div>
+        </div>
+
+        <!-- ============================================= SUBMIT ========================================= -->
+        <!-- ============================================= SUBMIT ========================================= -->
+
+    </form>
+
+    <button type="submit" onclick="submit()" class="button">SUBMIT</button>
+
+    <img src="./Assets/Flork__3-removebg-preview.png" class="image">
+
+    <img src="./Assets/stikmen.png" class="image2">
+
+    <footer>
+        <div class="countainer">
+            <span>Copyright &copy; 2023</span>
+            <span c lass="name1">ERameN</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>

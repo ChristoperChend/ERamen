@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./HomePage.css">
+    <title>HomePage</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <div class="name"><a href="./index.html">ERameN</a></div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html" class="active" style="color: gold;">Home</a></li>
+                    <li><a href="./Products/Products.html">Products</a></li>
+                    <li><a href="./Promotion/Promotion.html">Promotion</a></li>
+                    <li><a href="./AboutUs/AboutUs.html">About Us</a></li>
+                    <li><a href="./ContactUs/ContactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector("nav");
+        hamburger.onclick = function () {
+            nav.classList.toggle("active");
+        }
+    </script>
+
+    <div class="imageGrilled" id="boxGrilled">
+        <img src="./Assets/_Homemade__Grilled_chicken_Ramen-removebg-preview.png">
+    </div>
+    <div class="discount">
+        <p>this weekend only discount</p>
+        <p1>20%</p1>
+    </div>
+    <div class="food">
+        <p>Grilled Chicken Ramen</p>
+    </div>
+
+    <p class="newMenu">New Menu</p>
+
+    <shio>
+        <div class="imageShio" id="boxShio">
+            <img
+                src="./Assets/No_tare_shio_ramen____Ran_out_of_shio_tare_so_seasoning_is_only_sea_salt_and_some_MSG__Surprisingly_good_-removebg-preview.png">
+        </div>
+        <div class="shioRamen">
+            <p>Shio Ramen</p>
+            <p2>Rp 20.799</p2><br>
+            <p3>Rp 25.999</p3>
+        </div>
+        <div class="shioDiskon" id="boxDiskonShio">
+            <p>20%</p>
+        </div>
+    </shio>
+
+    <karage>
+        <div class="imageKarage" id="boxKarage">
+            <img src="./Assets/_4044__Yamamoto_Gomoku_Yasai_Ramen_-_Japan_-_THE_RAMEN_RATER-removebg-preview.png">
+        </div>
+        <div class="karageRamen">
+            <p>Karage Ramen</p>
+            <p2>Rp 19.499</p2><br>
+            <p3>Rp 25.999</p3>
+        </div>
+        <div class="karageDiskon" id="boxDiskonKarage">
+            <p>25%</p>
+        </div>
+    </karage>
+
+    <sriracha>
+        <div class="imageSriracha" id="boxSriracha">
+            <img src="./Assets/Sriracha_Ramen-removebg-preview.png">
+        </div>
+        <div class="srirachaRamen">
+            <p>Sriracha Ramen</p>
+            <p2>Rp 22.099</p2><br>
+            <p3>Rp 33.999</p3>
+        </div>
+        <div class="srirachaDiskon" id="boxDiskonSriracha">
+            <p>35%</p>
+        </div>
+    </sriracha>
+
+    <p class="bestSeller">Best Seller</p>
+
+    <tonkatsu>
+        <div class="imageTonkatsu" id="boxTonkatsu">
+        <img src="./Assets/MORGAN_1-transformed.png">
+        </div>
+        <div class="tonkatsuRamen">
+            <p>Tonkatsu Ramen</p>
+            <p2>Rp 22.099</p2><br>
+            <p3>Rp 33.999</p3>
+        </div>
+        <div class="tonkatsuDiskon" id="boxDiskonTonkatsu">
+            <p>20%</p>
+        </div>
+    </tonkatsu>
+
+    <miso>
+        <div class="imageMiso" id="boxMiso">
+            <img src="./Assets/Spicy_Miso_Tonkotsu_Ramen-removebg-preview.png">
+        </div>
+        <div class="misoRamen">
+            <p>Miso Ramen</p>
+            <p2>Rp 32.399</p2><br>
+            <p3>Rp 35.999</p3>
+        </div>
+        <div class="misoDiskon" id="boxDiskonMiso">
+            <p>10%</p>
+        </div>
+    </miso>
+
+    <shoyu>
+        <div class="imageShoyu" id="boxShoyu">
+            <img
+                src="./Assets/shoyuRamen.png">
+        </div>
+        <div class="shoyuRamen">
+            <p>Shoyu Ramen</p>
+            <p2>Rp 24.799</p2><br>
+            <p3>Rp 30.999</p3>
+        </div>
+        <div class="shoyuDiskon" id="boxDiskonShoyu">
+            <p>10%</p>
+        </div>
+    </shoyu>
+
+    <footer>
+        <div class="countainer">
+            <span>Copyright &copy; 2023</span>
+            <span class="name1">ERameN</span>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Japanese';
+    src: url(../Font/JAPANESE_2020.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #f3e6d4;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background: #c52833;
+}
+
+.name a {
+    font-family: 'Teko';
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+header .header-left {
+    display: flex;
+    align-items: center;
+}
+
+header .header-left nav {
+    margin-left: 15px;
+}
+
+header .header-left nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+    font-family: 'Poppins';
+}
+
+header .header-right .hamburger {
+    margin-left: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+header .header-right .hamburger div {
+    width: 30px;
+    height: 2px;
+    margin: 6px 0;
+    background: #fff;
+}
+
+.aboutUs {
+    font-size: 96px;
+    font-family: 'Japanese';
+    text-align: center;
+    margin-top: 30px;
+}
+
+.textCenter {
+    text-align: center;
+    margin: 30px 150px 0px 150px;
+}
+
+.penjelasan {
+    font-size: 24px;
+    font-family: 'Poppins';
+    text-align: justify;
+}
+
+.penjelasan b {
+    font-size: 32px;
+    font-family: 'Teko';
+    color: #c52833;
+}
+
+footer {
+    background-color: #c52833;
+    color: white;
+    font-family: 'Poppins';
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.name1 {
+    font-size: 27px;
+    font-family: 'Teko';
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    /* ============= NAVBAR ===================*/
+    header {
+        padding: 0 20px;
+    }
+
+    header .header-right .hamburger {
+        display: block;
+    }
+
+    header .header-left nav {
+        margin: 0;
+        position: absolute;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        background-color: #0b2239;
+        padding: 30px;
+        transition: 0.3s;
+        text-align: center;
+        z-index: -1;
+    }
+
+    header .header-left nav.active {
+        top: 70px;
+    }
+
+    header .header-left nav ul {
+        display: block;
+    }
+    
+    .aboutUs {
+        font-size: 72px;
+    }
+    
+    .textCenter {
+        margin: 20px;
+    }
+    
+    .penjelasan {
+        font-size: 18px;
+    }
+    
+    .penjelasan b {
+        font-size: 24px;
+    }
+}

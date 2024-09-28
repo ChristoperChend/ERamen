@@ -1,0 +1,949 @@
+@font-face {
+    font-family: 'Japanese';
+    src: url(./Font/JAPANESE_2020.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: #f3e6d4;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background: #c52833;
+}
+
+.name a {
+    font-family: 'Teko';
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+header .header-left {
+    display: flex;
+    align-items: center;
+}
+
+header .header-left nav {
+    margin-left: 15px;
+}
+
+header .header-left nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+    font-family: 'Poppins';
+}
+
+header .header-right .hamburger {
+    margin-left: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+header .header-right .hamburger div {
+    width: 30px;
+    height: 2px;
+    margin: 6px 0px;
+    background: #fff;
+}
+
+.imageGrilled img {
+    width: 252px;
+    margin-left: -10px;
+    position: absolute;
+    margin-top: -65px;
+}
+
+#boxGrilled {
+    background-color: #c52833;
+    margin-right: 120px;
+    margin-left: 150px;
+    margin-top: 100px;
+    padding-bottom: 200px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 4px rgb(140, 140, 140);
+}
+
+.discount p {
+    font-size: 64px;
+    font-family: 'Japanese';
+    color: white;
+    padding-left: 385px;
+    margin-top: -200px;
+}
+
+.discount p1 {
+    font-size: 96px;
+    font-family: 'Japanese';
+    color: white;
+    margin-left: 385px;
+    margin-top: -700px;
+}
+
+.food p {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    color: white;
+    margin-top: -20px;
+    margin-left: 155px;
+    margin-right: 1005px;
+}
+
+.newMenu {
+    font-size: 48px;
+    font-family: 'Japanese';
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.imageShio img {
+    width: 225px;
+    margin-left: -45px;
+    position: absolute;
+    margin-top: -125px;
+}
+
+#boxShio {
+    background-color: #c52833;
+    height: 180px;
+    width: 346px;
+    margin-left: 147px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+.shioRamen p {
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'Poppins';
+    color: white;
+    margin-right: 1300px;
+    padding-left: 317px;
+    margin-top: -140px;
+    line-height: 30px;
+}
+
+.shioRamen p2 {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Raleway';
+    color: white;
+    padding-left: 317px;
+    line-height: 45px;
+}
+
+.shioRamen p3 {
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    padding-left: 357px;
+    line-height: 1px;
+    text-decoration: line-through;
+}
+
+#boxDiskonShio {
+    background-color: #ffd700;
+    height: 50px;
+    width: 60px;
+    margin-left: 433px;
+    margin-top: -163.5px;
+    border-radius: 0px 10px 50px 50px;
+}
+
+.shioDiskon p {
+    font-size: 24px;
+    font-family: 'Poppins';
+    color: #c52833;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.imageKarage img {
+    width: 225px;
+    margin-left: -55px;
+    position: absolute;
+    margin-top: -70px;
+    height: 210px;
+}
+
+#boxKarage {
+    background-color: #c52833;
+    height: 180px;
+    width: 346px;
+    margin-left: 596px;
+    margin-top: -50px;
+    border-radius: 10px;
+}
+
+.karageRamen p {
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'Poppins';
+    color: white;
+    margin-right: 1000px;
+    padding-left: 766px;
+    margin-top: -140px;
+    line-height: 30px;
+}
+
+.karageRamen p2 {
+    position: relative;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Raleway';
+    color: white;
+    left: 766px;
+    line-height: 45px;
+}
+
+.karageRamen p3 {
+    position: relative;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    left: 806px;
+    line-height: 1px;
+    text-decoration: line-through;
+}
+
+#boxDiskonKarage {
+    background-color: #ffd700;
+    height: 50px;
+    width: 60px;
+    margin-left: 883px;
+    margin-top: -163.5px;
+    border-radius: 0px 10px 50px 50px;
+}
+
+.karageDiskon p {
+    font-size: 24px;
+    font-family: 'Poppins';
+    color: #c52833;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.imageSriracha img {
+    width: 225px;
+    margin-left: -75px;
+    margin-top: -140px;
+}
+
+#boxSriracha {
+    background-color: #c52833;
+    height: 180px;
+    width: 346px;
+    margin-left: 1036px;
+    margin-top: -50px;
+    border-radius: 10px;
+}
+
+.srirachaRamen p {
+    font-size: 32px;
+    font-family: 'Poppins';
+    color: white;
+    margin-right: 1000px;
+    padding-left: 1186px;
+    margin-top: -140px;
+    line-height: 30px;
+}
+
+.srirachaRamen p2 {
+    position: relative;
+    font-size: 24px;
+    font-family: 'Raleway';
+    color: white;
+    left: 1186px;
+    line-height: 45px;
+}
+
+.srirachaRamen p3 {
+    position: relative;
+    font-size: 24px;
+    font-family: 'Raleway';
+    left: 1226px;
+    line-height: 1px;
+    text-decoration: line-through;
+}
+
+#boxDiskonSriracha {
+    background-color: #ffd700;
+    height: 50px;
+    width: 60px;
+    margin-left: 1322px;
+    margin-top: -163.5px;
+    border-radius: 0px 10px 50px 50px;
+}
+
+.srirachaDiskon p {
+    font-size: 24px;
+    font-family: 'Poppins';
+    color: #c52833;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.bestSeller {
+    font-size: 48px;
+    font-family: 'Japanese';
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.imageTonkatsu img {
+    width: 235px;
+    margin-left: -55px;
+    margin-top: -80px;
+}
+
+#boxTonkatsu {
+    background-color: #c52833;
+    height: 180px;
+    width: 346px;
+    margin-left: 147px;
+    border-radius: 10px;
+}
+
+.tonkatsuRamen p {
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'Poppins';
+    color: white;
+    margin-right: 1300px;
+    padding-left: 317px;
+    margin-top: -130px;
+    line-height: 30px;
+}
+
+.tonkatsuRamen p2 {
+    position: relative;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Raleway';
+    color: white;
+    left: 317px;
+    line-height: 45px;
+}
+
+.tonkatsuRamen p3 {
+    position: relative;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    left: 357px;
+    line-height: 1px;
+    text-decoration: line-through;
+}
+
+#boxDiskonTonkatsu {
+    background-color: #ffd700;
+    height: 50px;
+    width: 60px;
+    margin-left: 433px;
+    margin-top: -173.5px;
+    border-radius: 0px 10px 50px 50px;
+}
+
+.tonkatsuDiskon p {
+    font-size: 24px;
+    font-family: 'Poppins';
+    color: #c52833;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.imageMiso img {
+    position: relative;
+    width: 255px;
+    height: 240px;
+    margin-left: -70px;
+    margin-top: -85px;
+    bottom: -8px;
+}
+
+#boxMiso {
+    background-color: #c52833;
+    height: 180px;
+    width: 346px;
+    margin-left: 596px;
+    margin-top: -50px;
+    border-radius: 10px;
+}
+
+.misoRamen p {
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'Poppins';
+    color: white;
+    margin-right: 1000px;
+    padding-left: 766px;
+    margin-top: -130px;
+    line-height: 30px;
+}
+
+.misoRamen p2 {
+    position: relative;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Raleway';
+    color: white;
+    left: 766px;
+    line-height: 45px;
+}
+
+.misoRamen p3 {
+    position: relative;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    left: 806px;
+    line-height: 1px;
+    text-decoration: line-through;
+}
+
+#boxDiskonMiso {
+    background-color: #ffd700;
+    height: 50px;
+    width: 60px;
+    margin-left: 883px;
+    margin-top: -173.5px;
+    border-radius: 0px 10px 50px 50px;
+}
+
+.misoDiskon p {
+    font-size: 24px;
+    font-family: 'Poppins';
+    color: #c52833;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.imageShoyu img {
+    width: 210px;
+    margin-left: -60px;
+    margin-top: -90px;
+    height: 250px;
+}
+
+#boxShoyu {
+    background-color: #c52833;
+    height: 180px;
+    width: 346px;
+    margin-left: 1036px;
+    margin-top: -50px;
+    border-radius: 10px;
+}
+
+.shoyuRamen p {
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'Poppins';
+    color: white;
+    margin-right: 1000px;
+    padding-left: 1186px;
+    margin-top: -130px;
+    line-height: 30px;
+}
+
+.shoyuRamen p2 {
+    position: relative;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Raleway';
+    color: white;
+    left: 1186px;
+    line-height: 45px;
+}
+
+.shoyuRamen p3 {
+    position: relative;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    left: 1225px;
+    line-height: 1px;
+    text-decoration: line-through;
+}
+
+#boxDiskonShoyu {
+    background-color: #ffd700;
+    height: 50px;
+    width: 60px;
+    margin-left: 1323px;
+    margin-top: -173.5px;
+    border-radius: 0px 10px 50px 50px;
+}
+
+.shoyuDiskon p {
+    font-size: 24px;
+    font-family: 'Poppins';
+    color: #c52833;
+    text-align: center;
+    padding-top: 5px;
+}
+
+footer {
+    background-color: #c52833;
+    color: white;
+    font-family: 'Poppins';
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.name1 {
+    font-size: 27px;
+    font-family: 'Teko';
+}
+
+@media only screen and (max-width: 768px) {
+    
+    /* ============= NAVBAR ===================*/
+    header { 
+        padding: 0 20px;
+    }
+
+    header .header-right .hamburger {
+        display: block;
+    }
+
+    header .header-left nav {
+        margin: 0;
+        position: absolute;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        background-color: #0b2239;
+        padding: 30px;
+        transition: 0.3s;
+        text-align: center;
+        z-index: -1;
+    }
+
+    header .header-left nav.active {
+        top: 70px;
+    }
+
+    header .header-left nav ul {
+        display: block;
+    }
+
+    /* ======================= PROMOTION BANNER ===================== */
+    .imageGrilled img {
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    #boxGrilled {
+        position: relative;
+        width: 620px;
+        bottom: 70px;
+        left: -80px;
+    }
+
+    .discount p {
+        position: relative;
+        font-size: 40px;
+        left: -120px;
+        top: -50px;
+        width: 900px;
+    }
+
+    .discount p1 {
+        position: relative;
+        font-size: 40px;
+        left: 85px;
+        top: -96px;
+    }
+
+    .food p {
+        position: relative;
+        font-size: 20px;
+        top: -50px;
+        width: 1000px;
+        left: 80px;
+    }
+
+    .newMenu {
+        margin-top: 20px;
+    }
+
+    /* ===================== SHIO RAMEN =================== */
+    .imageShio img {
+        position: relative;
+        width: 150px;
+        top: 40px;
+    }
+
+    #boxShio {
+        position: relative;
+        width: 250px;
+        left: -80px;
+        height: 130px;
+    }
+
+    .shioRamen p {
+        position: relative;
+        font-size: 20px;
+        width: 500px;
+        top: 50px;
+        left: -150px;
+    }
+
+    .shioRamen p2 {
+        position: relative;
+        font-size: 20px;
+        top: 35px;
+        left: -150px;
+    }
+
+    .shioRamen p3 {
+        position: relative;
+        font-size: 20px;
+        left: -155px;
+        top: 30px;
+    }
+
+    #boxDiskonShio {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        left: -156px;
+        top: 79.5px;
+    }
+
+    .shioDiskon p {
+        font-size: 18px;
+    }
+
+    shio {
+        position: relative;
+        top: -10px;
+    }
+
+    /* ============================= KARAGE RAMEN ===================== */
+    .imageKarage img {
+        position: relative;
+        width: 135px;
+        height: 135px;
+        top: 30px;
+    }
+
+    #boxKarage {
+        position: relative;
+        width: 250px;
+        left: -180px;
+        height: 130px;
+    }
+
+    .karageRamen p {
+        position: relative;
+        font-size: 20px;
+        width: 1000px;
+        top: 50px;
+        left: -270px;
+    }
+
+    .karageRamen p2 {
+        position: relative;
+        font-size: 20px;
+        top: 10px;
+        width: 100px;
+        left: 495px;
+        line-height: 100px;
+    }
+
+    .karageRamen p3 {
+        position: relative;
+        font-size: 20px;
+        left: 525px;
+        width: 100px;
+        top: -25px;
+    }
+
+    #boxDiskonKarage {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        left: -257px;
+        top: 24.4px;
+    }
+
+    .karageDiskon p {
+        font-size: 18px;
+    }
+
+    karage {
+        position: relative;
+        top: 40px;
+        left: 24px;
+    }
+
+    /* ====================================== SRIRACHA RAMEN ================================ */
+    .imageSriracha img {
+        position: relative;
+        width: 140px;
+        height: 210px;
+        top: 60px;
+        left: 10px;
+    }
+
+    #boxSriracha {
+        position: relative;
+        width: 250px;
+        left: -770px;
+        height: 130px;
+        top: 260px;
+    }
+
+    .srirachaRamen p {
+        position: relative;
+        font-size: 20px;
+        width: 2000px;
+        top: 310px;
+        left: -845px;
+    }
+
+    .srirachaRamen p2 {
+        position: relative;
+        font-size: 20px;
+        top: 270px;
+        width: 100px;
+        left: 342px;
+        line-height: 100px;
+    }
+
+    .srirachaRamen p3 {
+        position: relative;
+        font-size: 20px;
+        left: 375px;
+        width: 100px;
+        top: 235px;
+    }
+
+    #boxDiskonSriracha {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        left: -846px;
+        top: 285px;
+    }
+
+    .srirachaDiskon p {
+        font-size: 18px;
+    }
+
+    .bestSeller {
+        position: relative;
+        top: 130px;
+    }
+
+    /* ========================= MISO RAMEN ========================== */
+    .imageMiso img {
+        position: relative;
+        width: 160px;
+        height: 150px;
+        top: 25px;
+        left: 15px;
+    }
+
+    #boxMiso {
+        position: relative;
+        width: 250px;
+        left: -528px;
+        height: 130px;
+    }
+
+    .misoRamen p {
+        position: relative;
+        font-size: 20px;
+        width: 1500px;
+        top: 40px;
+        left: -600px;
+    }
+
+    .misoRamen p2 {
+        position: relative;
+        font-size: 20px;
+        top: 25px;
+        left: 165px;
+    }
+
+    .misoRamen p3 {
+        position: relative;
+        font-size: 20px;
+        left: 195px;
+        top: 20px;
+    }
+
+    #boxDiskonMiso {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        left: -604.5px;
+        top: 80px;
+    }
+
+    .misoDiskon p {
+        font-size: 18px;
+    }
+
+    miso {
+        position: relative;
+        top: 160px;
+    }
+
+    /* ====================== TONKATSU RAMEN ================== */
+    .imageTonkatsu img {
+        position: relative;
+        width: 160px;
+        height: 150px;
+        top: 25px;
+        left: -15px;
+    }
+
+    #boxTonkatsu {
+        position: relative;
+        width: 250px;
+        left: 293px;
+        height: 130px;
+        top: 60px;
+    }
+
+    .tonkatsuRamen p {
+        position: relative;
+        font-size: 20px;
+        top: 85px;
+        left: 205px;
+        line-height: 20px;
+    }
+
+    .tonkatsuRamen p2 {
+        position: relative;
+        font-size: 20px;
+        top: 75px;
+        left: 522px;
+    }
+
+    .tonkatsuRamen p3 {
+        position: relative;
+        font-size: 20px;
+        left: 550px;
+        top: 70px;
+    }
+
+    #boxDiskonTonkatsu {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        left: 217.5px;
+        top: 130.5px;
+    }
+
+    .tonkatsuDiskon p {
+        font-size: 18px;
+    }
+
+    tonkatsu {
+        position: relative;
+        top: 50px;
+    }
+
+    /* ======================== SHOYU RAMEN =================== */
+    .imageShoyu img {
+        position: relative;
+        width: 130px;
+        height: 150px;
+        top: 40px;
+        left: 5px;
+    }
+
+    #boxShoyu {
+        position: relative;
+        width: 250px;
+        left: -770px;
+        height: 130px;
+        top: 310px;
+    }
+
+    .shoyuRamen p {
+        position: relative;
+        font-size: 20px;
+        top: 355px;
+        width: 1400px;
+        left: -845px;
+        line-height: 20px;
+    }
+
+    .shoyuRamen p2 {
+        position: relative;
+        font-size: 20px;
+        top: 345px;
+        left: 342px;
+    }
+
+    .shoyuRamen p3 {
+        position: relative;
+        font-size: 20px;
+        left: 375px;
+        top: 340px;
+    }
+
+    #boxDiskonShoyu {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        left: -847px;
+        top: 400.5px;
+    }
+
+    .shoyuDiskon p {
+        font-size: 18px;
+    }
+
+    shoyu {
+        position: relative;
+        top: 90px;
+    }
+
+    footer {
+        margin-top: 480px;
+    }
+}
+
